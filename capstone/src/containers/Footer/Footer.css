@@ -1,0 +1,137 @@
+.footer {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background: var(--color-lightgreen);
+    padding-top: 0;
+}
+
+.footer__p {
+    font-size: 1rem;
+    font-family: var(--font-alt);
+    font-family: 700;
+    color: var(--color-darkgreen);
+    text-align: left;
+}
+
+.footer__links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+
+.footer__links-logo img:first-child {
+    width: 210px;
+    margin-bottom: 0.75rem;
+}
+
+/* .footer__links_work p:nth-child(2n + 1) {
+    margin-bottom: 1rem;
+} */
+
+.footer__links-icons {
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+.footer__links-icons svg {
+    font-size: 2rem;
+    color: var(--color-darkgreen);
+    text-align: left;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.footer__links-icons svg:hover {
+    color: var(--color-golden);
+}
+
+.footer-headtext {
+    font-family: var(--font-base);
+    color: var(--color-darkgreen);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    text-transform: capitalize;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.footer__copyright {
+    margin-top: 3rem
+}
+
+@media screen and (min-width:2000px) {
+    .footer-headtext {
+        font-size: 51px;
+        line-height: 61.6px;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .footer-headtext {
+        font-size: 51px;
+        line-height: 61.6px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .footer__links {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer__links_contact,
+    .footer__links-logo,
+    .footer__links_work {
+        margin: 2rem 0;
+        /* width: 100%; */
+    }
+}
+
+@media screen and (max-width:650px) {
+    .footer {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .footer__links-logo img:first-child {
+        width: 80%;
+    }
+
+    .footer__p {
+        font-size: 0.8rem;
+        font-family: 700;
+        text-align: center;
+    }
+
+    .footer__links {
+        margin: 0;
+    }
+
+    .footer__links-icons {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .footer__links-icons svg {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .footer__links-icons svg {
+        text-align: center;
+    }
+}

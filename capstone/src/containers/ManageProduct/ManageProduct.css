@@ -1,0 +1,58 @@
+@use postcss-color-function;
+@use postcss-nested;
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+
+body {
+    width: 430px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+.app__center {
+    padding: 7rem 30rem;
+}
+
+.employee__header {
+    font-size: 35px;
+}
+
+.employee__add-products {
+    position: absolute;
+    top: 185px;
+    left: 500px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    height: 30%;
+    width: 900px;
+}
+
+.employee__add-icon {
+    padding: 5rem 25rem;
+}
+
+.employee__search-container {
+    position: absolute;
+    top: 425px;
+    left: 500px;
+    border: 1.5px solid #70908B;
+    border-radius: 10px;
+}
+
+.employee__element-container {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.employee__search {
+    border: none;
+    height: 30px;
+    width: 865px;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    font-size: 18;
+}
+
+.employee__search:focus {
+    outline: none;
+}

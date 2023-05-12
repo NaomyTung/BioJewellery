@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: biojewelry
+    buildCommand: |
+      cd capstone && npm install && npm run build
+      cd .. && npm install && npm run build
+    startCommand: npm run start

@@ -1,0 +1,325 @@
+.passwordChecklist {
+    font-size: 1rem;
+}
+
+.signup {
+    background: var(--color-lightgreen);
+    position: relative;
+}
+
+.signup__form {
+    padding: 8vw 13vw;
+    max-height: 101vh;
+}
+
+.signup__table-column2 {
+    min-width: 50vw;
+    margin-bottom: 2rem;
+    padding: 7rem 12rem;
+}
+
+.signup__header1 P {
+    font-size: 1.1rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    color: var(--color-darkgreen);
+    text-align: left;
+}
+
+.signup__form h1 {
+    font-size: 4.5rem;
+    font-family: var(--font-base);
+    color: var(--color-darkgreen);
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+.signup img {
+    height: 100vh;
+    /* height: auto; */
+    z-index: -1;
+}
+
+.signup p {
+    font-size: 1.1rem;
+    font-family: var(--font-alt);
+    color: var(--color-darkgreen);
+    text-align: center;
+}
+
+.left {
+    position: absolute;
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    background: var(--color-lightgreen);
+}
+
+.signup__details {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.signup__input {
+    max-width: 50vw;
+    margin-top: 1.5vw;
+    font-size: 1.5rem;
+    font-family: var(--font-alt);
+    color: black;
+    background-color: #ffffffd5;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 2px solid darkgray;
+}
+
+.signup__lower-functions {
+    text-align: center;
+    /* padding: 1vw 0; */
+}
+
+.signup__button {
+    margin-top: 1.5vw;
+    width: 23vw;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup__link {
+    margin-top: 0.5vw;
+    font-size: 13px;
+    font-family: var(--font-alt);
+    text-align: center;
+}
+
+.HeaderImageContainer {
+    position: relative;
+}
+
+.HeaderImageContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.signup__wrapper {
+    position: relative;
+}
+
+.HeaderText {
+    position: relative;
+    bottom: 0;
+    /* left: 13%; */
+    margin-top: 90vh;
+    margin-left: -1rem;
+    transform: translate(-50%, -50%);
+    color: var(--color-golden);
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.signup__error-message {
+    margin-top: 0.5vw;
+    width: 23vw;
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 15px;
+    font-size: 13px;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.signup__next-botton {
+    border-radius: 25px;
+}
+
+.ProgressButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProgressButton button {
+    align-items: center;
+    justify-content: space-between;
+    /* height: 1.5vw; */
+    /* border-radius: 50px; */
+    /* border: none; */
+    /* background-color: none; */
+    /* background-color: #B0E0E6; */
+    /* padding: 0.1vw; */
+}
+
+.signup__next-button {
+    align-items: center;
+    justify-content: space-between;
+    height: 2vw;
+    border-radius: 50px;
+    border: none;
+    background-color: #B0E0E6;
+    padding: 0.1vw;
+    cursor: pointer;
+}
+
+.signup__button-icon {
+    /* width: 1.75vw; */
+    align-items: center;
+    justify-content: space-between;
+    height: 1.5vw;
+    width: 1.75vw;
+    margin-top: 1.5px;
+    /* border-radius: 50px; */
+    /* border: none; */
+    /* background-color: #B0E0E6; */
+    /* padding: 0.1vw; */
+}
+
+.signup__login {
+    font-size: 1.1rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    color: var(--color-darkgreen);
+    margin-top: 0.5vw;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Progress {
+    text-align: center;
+}
+
+.ProgressBar {
+    display: flex;
+    margin-top: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.ProgressBar span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 5px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.ProgressBar .Active {
+    background-color: #B0E0E6;
+}
+
+.signup__smallscreen {
+    display: none;
+}
+
+@media screen and (max-width: 430px) {
+
+    .signup__wrapper,
+    .signup {
+        display: none;
+    }
+
+    .signup__form {
+        padding: 1rem 13vw;
+    }
+
+    .signup__overall {
+        background: url('../../assets/login.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        z-index: -1;
+        max-height: 100vh;
+    }
+
+    .signup__overlay {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.096) 0%, rgba(0, 0, 0, 0.315) 100%);
+        ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        z-index: -2;
+        max-height: 100vh;
+    }
+
+    .signup__smallscreen {
+        display: contents;
+        max-width: 100%;
+        background-color: #B0E0E6;
+        /* align-items: center; */
+    }
+
+    .signup__header {
+        text-align: center;
+        font-family: var(--font-alt);
+        color: var(--color-golden);
+        margin-bottom: 2rem;
+    }
+
+    .signup__header h1 {
+        font-size: 4rem;
+        font-family: var(--font-base);
+        color: var(--color-golden);
+        margin: 0 0 1rem 0;
+    }
+
+    .signup__header p {
+        font-size: 1.3rem;
+        font-family: var(--font-base);
+        color: var(--color-golden);
+    }
+
+    .signup__details {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .signup__input {
+        max-width: 15rem;
+        max-height: 1.8rem;
+        font-size: medium;
+        border-radius: 2px;
+        background-color: #ffffffa9;
+    }
+
+    .ProgressButton {
+        margin-bottom: 1rem;
+    }
+
+    .signup__login {
+        font-family: var(--font-alt);
+        font-size: 0.8rem;
+        color: var(--color-golden);
+        margin-top: 3rem;
+    }
+
+    .eQAUJG span {
+        color: var(--color-golden);
+        opacity: 1;
+    }
+}

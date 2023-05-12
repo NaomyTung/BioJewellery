@@ -1,0 +1,90 @@
+.empaccount__sidebar {
+    max-width: 19vw;
+    min-height: 50vh;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 8rem 0.8rem 3rem 0.8rem; */
+}
+
+.empaccount__sidebar-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: auto;
+    flex-direction: column;
+}
+
+.empaccount__sidebar-img h1 {
+    font-size: 2rem;
+    font-family: var(--font-base);
+    color: var(--color-darkgreen);
+    text-align: center;
+}
+
+.empaccount__sidebar-img img {
+    max-width: 16vw;
+    max-height: 16vh;
+    border-radius: 100%;
+}
+
+.empaccount__sidebar button {
+    min-width: 20vw;
+    background: var(--color-white);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: var(--font-base);
+    /* border: 1px solid green; */
+    border-radius: 15px;
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.category-btn:hover {
+    background-color: #c0dfc1;
+    /* color: white; */
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.empaccount__grid-item {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.empsidebar__content {
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 430px) {
+    .empaccount__sidebar {
+        max-height: 30px;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: none;
+    }
+
+    .empaccount__sidebar button {
+        padding: 1rem 1rem;
+        margin: 0 1rem;
+        align-items: center;
+        /* display:flex; */
+
+        /* display: none; */
+    }
+
+    .empsidebar__content {
+        display: none;
+    }
+}

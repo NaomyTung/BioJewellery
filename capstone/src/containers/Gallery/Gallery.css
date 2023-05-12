@@ -1,0 +1,216 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+
+    background: var(--color-lightgreen);
+    padding: 4rem 0 4rem 6rem;
+
+}
+
+.gallery__subheading {
+    font-size: 4.5rem;
+    font-family: var(--font-base);
+    font-weight: 600;
+    color: var(--color-darkgreen);
+    position: relative;
+}
+
+.gallery__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    min-width: 500px;
+    padding-right: 2rem;
+}
+
+.gallery__content button {
+    margin-top: 1rem;
+}
+
+.gallery__images {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    position: relative;
+}
+
+.gallery__images-container {
+    display: flex;
+    /* is row by refault but will make changes for mobile devices */
+    flex-direction: row;
+    /* sets width of specific content to max */
+    width: max-content;
+    /* allow to scroll horizontally */
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    /* hide the scroll bar of images */
+    scrollbar-width: none;
+}
+
+/* hide the scroll bar of images */
+.gallery__images-container::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery__images-card {
+    position: relative;
+    min-width: 301px;
+    height: 447px;
+    margin-right: 2rem;
+}
+
+.gallery__images-icon {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+/* image styling */
+.gallery__images-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+/* action when hovering */
+.gallery__images-card:hover img {
+    opacity: .7;
+}
+
+/* appear insta icon when hovering */
+.gallery__images-card:hover .gallery__images-icon {
+    opacity: 1;
+    color: var(--color-black);
+}
+
+/* styling carosel arrow icon */
+.gallery__images-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 5%;
+}
+
+/* styling carosel arrow icon */
+.gallery__arrows-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+.gallery__arrows-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+    background: var(--color-black);
+    border-radius: 5px;
+}
+
+/* hover arrow effect */
+.gallery__arrows-icon:hover {
+    color: var(--color-white);
+}
+
+/* 
+@media screen and (min-width: 2000px) {
+    .gallery__content {
+        min-width: 1000px;
+        padding: 4rem;
+    }
+
+    .gallery__images-card {
+        min-width: 400px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery__images {
+        max-width: 100%;
+        margin: 5rem 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .gallery {
+        padding: 4rem 0 4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .gallery {
+        padding: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .gallery__content {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .gallery__images {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        position: relative;
+    }
+
+    .gallery__images_card {
+        max-width: 240px;
+        height: 320px;
+    }
+} */
+
+@media screen and (max-width: 430px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem;
+    }
+
+    .gallery__subheading {
+        font-size: 2rem;
+    }
+
+    .gallery__content {
+        max-width: 100vw;
+        padding: 0;
+        min-width: 0;
+    }
+
+    .gallery__images {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    .gallery__images-card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery__images-container {
+        /* sets width of specific content to max */
+        width: 100%;
+    }
+}

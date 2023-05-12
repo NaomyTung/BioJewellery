@@ -1,0 +1,125 @@
+.flex__center {
+    color: #0b3435;
+    padding-left: 10rem;
+}
+
+.edit__title {
+    font-size: 60px;
+    padding-bottom: 2rem;
+}
+
+.edit__name {
+    padding-left: 6rem;
+}
+
+.edit__product-info {
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-right: 775px;
+}
+
+.edit__product-name {
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.edit__product-desc {
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+}
+
+.edit__price-prod {
+    padding-left: 5.7rem;
+    list-style: none;
+    margin: 0;
+}
+
+.edit__price-prod li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.input__name {
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.edit__product-uploader {
+    float: right;
+    background-color: #ECF1E3;
+    height: 300px;
+    width: 450px;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.edit__uploader {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit__input-name {
+    height: 35px;
+    width: 400px;
+}
+
+.edit__input-desc {
+    height: 100px;
+    width: 400px;
+}
+
+.edit__input-price {
+    height: 35px;
+    width: 100px;
+}
+
+.edit__input-stock {
+    height: 35px;
+    width: 281px;
+}
+
+.edit__buttons {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.edit__button-cancel {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 350px;
+    height: 40px;
+}
+
+.edit__button-save {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+}

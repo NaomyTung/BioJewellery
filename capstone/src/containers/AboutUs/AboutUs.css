@@ -1,0 +1,105 @@
+.about__head-context {
+    max-width: 40rem;
+    background-color: var(--color-darkgreen);
+    border: 5px solid var(--color-darkgreen);
+    border-radius: 15px;
+    margin: 6rem 0 9rem 0;
+}
+
+.about__head-context h1 {
+    font-size: 3rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    color: var(--color-golden);
+    margin: 2rem;
+}
+
+.about__head-context p {
+    font-size: 1rem;
+    font-family: var(--font-alt);
+    color: var(--color-golden);
+    text-align: center;
+    max-width: 30rem;
+    margin: 4rem;
+}
+
+.about__comp {
+    background-color: var(--color-lightgreen);
+}
+
+.about__company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__company td {
+    border-left: 2px solid var(--color-grey);
+}
+
+.about__company h1 {
+    font-size: 3rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-golden);
+    margin: 2rem;
+}
+
+.about__company p {
+    font-size: 1rem;
+    font-family: var(--font-alt);
+    color: var(--color-golden);
+    text-align: center;
+    max-width: 30rem;
+    margin: 4rem;
+}
+
+.about__title {
+    font-family: var(--font-base);
+    color: var(--color-green);
+    font-size: 2rem;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.about__sus {
+    background-color: rgba(204, 228, 228, 0.664);
+}
+
+
+@media screen and (max-width: 450px) {
+    .about__head-context {
+        margin: 3rem 0;
+    }
+
+    .about__head-context p {
+        font-size: 0.9rem;
+        margin: 1.5rem;
+    }
+
+    .about__company p {
+        font-size: 0.9rem;
+        margin: 1.5rem;
+    }
+
+    .about__head-context h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 1.5rem;
+    }
+
+    .about__company h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 1.5rem;
+    }
+
+    .about__title {
+        font-family: var(--font-base);
+        color: var(--color-green);
+        font-size: 1.5rem;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+    }
+}

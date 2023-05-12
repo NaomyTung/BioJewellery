@@ -1,0 +1,98 @@
+.employee {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    z-index: 3; 
+    top: 0;
+    left: 0;
+    background-color: #0b3435;
+    overflow-x: hidden;
+    list-style: none;       
+}
+
+.employee__photo {
+    padding-bottom: 20px;
+    padding-left: 12px;
+}
+
+.employee__name {
+    padding-bottom: 70px;
+    color: rgb(251, 251, 251);
+    font-size: 25px;   
+}
+
+.employee__photo-arrow {
+    width: 67px;
+    float: right;
+    padding: 1px;
+    padding-top: 13px;
+}
+
+.employee__ a:hover {
+    color: #f1f1f1;
+}
+
+.employee__text a {
+    z-index: 0;
+    padding: 8px 8px 8px 32px;
+    margin-left: 20%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    overflow-x: hidden;
+}
+
+.employee__text a:hover {
+    color: #f1f1f1;
+}
+
+.e__edit {
+    margin-bottom: 40px;
+}
+
+.e__return {
+    margin-bottom: 40px;
+}
+
+.e__kpi {
+    margin-bottom: 40px;
+}
+
+.e__products-grid {
+    width: 1%;
+    float: left;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+
+.e__kpi-bars {
+    width: 1%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.e__return-person {
+    width: 1%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.e__photo-edit {
+    width: 1%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.employee__photo {
+    margin-top: 20%;
+    margin-left: 30%;
+    height: 200%;
+    width: 200%;
+}
+
+
+

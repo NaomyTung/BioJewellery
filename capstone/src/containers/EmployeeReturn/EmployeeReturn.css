@@ -1,0 +1,64 @@
+.app__center {
+    padding: 10rem 20rem;
+    background-color: white;
+}
+
+.employee__button-block {
+    padding: 4rem 6rem;
+    list-style-type: none;
+}
+
+.employee__open-button {
+    border: 2px;
+    border-radius: 5px;
+    padding-top: 20px;
+    height: 75px;
+    width: 300px;
+    background-color: #71a7da;
+    text-align: center;
+}
+
+.employee__pending-button {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 75px;
+    width: 300px;
+    background-color: #ffe083;
+    text-align: center;
+}
+
+.employee__completed-button {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 75px;
+    width: 300px;
+    background-color: #659899;
+    text-align: center;
+}
+
+.employee__all-button {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 75px;
+    width: 300px;
+    background-color: #a59c9c;
+    text-align: center;
+}
+
+.employee__return-header {
+    float: right;
+}
+
+.employee_return-icon {
+    position: relative;
+    margin-top: -30px;
+    float: right;
+    padding-left: 200px;
+}
+
+.employee__return-block {
+    padding-top: 20px;
+}

@@ -1,0 +1,43 @@
+.emp__manage {
+    display: flex;
+    flex-direction: column;
+}
+
+.emp__manage-header {
+    font-size: 3rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    color: var(--color-darkgreen);
+}
+
+.emp__manage-add {
+    font-size: 3rem;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 8px;
+    background: #f8f8f8;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.emp__manage-search input {
+    min-width: 77vw;
+    box-sizing: border-box;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-alt);
+    background: #f8f8f8;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 0.3rem 0.4rem;
+    margin: 2rem 0;
+}
+
+.emp__manage-search::placeholder {
+    color: lightgray;
+}

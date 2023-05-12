@@ -1,0 +1,340 @@
+.app__section-padding {
+    padding: 4rem 6rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.app__flex-center {
+    display: flex;
+    max-height: 50rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app__bg {
+    background: url('./assets/socialbg4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.Header__bg {
+    background: url('./assets/headerImage2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    z-index: -2;
+}
+
+.about__bg {
+    background: url('./assets/aboutus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    z-index: -2;
+}
+
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.app__wrapper-info {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+
+.app__wrapper_img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+.app__wrapper_img-reverse {
+    justify-content: flex-start;
+    margin-right: 2rem;
+}
+
+.app__wrapper_img img {
+    width: 80%;
+}
+
+.app__button {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.button-submit {
+    background-color: #70908B;
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-checkout {
+    background-color: #70908B;
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.p__cormorant {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
+}
+
+.app__p {
+    font-family: var(--font-alt);
+    color: var(--color-green);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.headtext__cormorant {
+    font-family: var(--font-base);
+    color: var(--color-green);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.spoon__img {
+    width: 45px;
+}
+
+.app__card-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    /* margin-top: 5rem; */
+    padding: 0 2rem;
+}
+
+.app__card-links_contact,
+.app__card-links_logo,
+.app__card-links-align {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.app__card-links_logo img:first-child {
+    width: 210px;
+    margin-bottom: 0.75rem;
+}
+
+.app__card-links_icons {
+    margin-top: 0.5rem;
+}
+
+.app__card-links_icons svg {
+    color: var(--color-black);
+    margin: 5rem .5rem .5rem .5rem;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    .button,
+    .p__cormorant {
+        font-size: 37px;
+        line-height: 67px;
+    }
+
+    .app__p {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .headtext__cormorant {
+        font-size: 150px;
+        line-height: 210px;
+    }
+
+    .spoon__img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__wrapper {
+        flex-direction: column;
+    }
+
+    .app__wrapper_img {
+        margin: 5rem 0 0 0;
+    }
+
+    .app__wrapper_img-reverse {
+        margin: 0 0 5rem 0;
+    }
+
+    .app__wrapper_img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app__section-padding {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__section-padding {
+        padding: 4rem 2rem;
+    }
+
+    .p__cormorant {
+        font-size: 21px;
+    }
+
+    .app__p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__section-padding {
+        padding: 2.5rem 2rem;
+    }
+
+    .app__p {
+        font-size: 12px;
+    }
+
+    .p__cormorant {
+        font-size: 19px;
+    }
+
+    .headtext__cormorant {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .app__wrapper-info {
+        flex: 0;
+        margin: 0;
+    }
+
+    .app__button {
+        font-weight: 500;
+        /* letter-spacing: 0.04em; */
+        line-height: 16px;
+        font-size: 16px;
+        padding: 0.5rem 1.2rem;
+    }
+
+    .app__flex-center {
+        max-height: 30rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__bg {
+        background: url('./assets/socialbg4.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        z-index: -1;
+        /* display: none; */
+    }
+
+    .app__card-links_icons svg {
+        margin-top: .5rem;
+    }
+
+    .app__card-links-align {
+        flex: 1;
+        margin: 0rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .app__section-padding {
+        padding: 2rem 1rem;
+    }
+
+    .app__p {
+        font-size: 10px;
+    }
+
+    .app__button {
+        font-weight: 300;
+        line-height: 18px;
+        font-size: 14px;
+        padding: 0.3rem 1.0rem;
+    }
+
+
+}

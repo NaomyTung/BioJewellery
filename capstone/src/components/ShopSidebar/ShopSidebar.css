@@ -1,0 +1,44 @@
+.shop__sidebar-small {
+    display: none;
+}
+
+.sidebar button:hover {
+    background-color: #07484A;
+}
+
+@media screen and (max-width: 430px) {
+    .shop__sidebar-small {
+        display: flex;
+    }
+
+    .shop__sidebar {
+        display: none;
+    }
+
+    .shop__scroll {
+        overflow-y: auto;
+        white-space: nowrap;
+        margin: 2rem 0 0 0;
+    }
+
+    .shop__scroll button {
+        font-size: 1.3rem;
+        font-family: var(--font-base);
+        font-weight: 600;
+        color: var(--color-darkgreen);
+        border: 1px solid var(--color-darkgreen);
+        border-radius: 10px;
+        background-color: var(--color-white);
+        padding: 0.3rem 0.5rem;
+        cursor: pointer;
+    }
+
+    .shop__scroll button:hover {
+        background-color: #c0dfc1;
+    }
+
+    .shop__category {
+        display: inline-block;
+        margin: 0 0.5rem;
+    }
+}

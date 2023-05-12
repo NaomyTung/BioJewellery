@@ -1,0 +1,121 @@
+
+.flex__center {
+    color: #0b3435;
+    padding-left: 10rem;
+}
+
+.add__title {
+    font-size: 50px;
+}
+
+.add__name {
+    padding-left: 6rem;
+}
+
+.add__product-info {
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-right: 775px;
+}
+
+.add__product-name {
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.add__product-description {
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+}
+
+.add__price-prod {
+    padding-left: 5.7rem;
+    list-style: none;
+    margin: 0;
+}
+
+.add__price-prod li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.input__name {
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.add__product-uploader {
+    float: right;
+    background-color: #ECF1E3;
+    height: 300px;
+    width: 450px;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.add_input-name {
+    height: 35px;
+    width: 400px;
+}
+
+.add_input-desc {
+    height: 100px;
+    width: 400px;
+}
+
+.add_input-price {
+    height: 35px;
+    width: 100px;
+}
+
+.add_input-stock {
+    height: 35px;
+    width: 281px;
+}
+
+.add__buttons {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.button-cancel {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 350px;
+    height: 40px;
+}
+
+.button-save {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+}
+
+

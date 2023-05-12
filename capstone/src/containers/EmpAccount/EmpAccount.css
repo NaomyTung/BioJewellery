@@ -1,0 +1,246 @@
+.emp-account__table {
+    max-width: 100vw;
+    border-collapse: collapse;
+}
+
+.emp-account__table td {
+    font-size: 1.8rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    text-align: left;
+    color: var(--color-darkgreen);
+    border: none;
+    padding: 0.8rem;
+}
+
+.emp-account__header {
+    font-size: 3rem;
+    font-family: var(--font-base);
+    color: var(--color-darkgreen);
+    text-align: left;
+}
+
+.emp-account__header-privillages {
+    font-size: 3rem;
+    font-family: var(--font-base);
+    color: var(--color-darkgreen);
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.emp-account__avatar {
+    position: relative;
+    display: inline-block;
+    padding: 1.5rem;
+}
+
+.emp-account__icon {
+    color: var(--color-darkgreen);
+    cursor: pointer;
+}
+
+.emp-account__avatar img {
+    max-width: 10rem;
+    border-radius: 15px;
+    position: relative;
+}
+
+.blur {
+    filter: none;
+}
+
+.emp-account__avatar:hover .blur {
+    filter: blur(2px);
+    transition: filter 0.3s ease-in-out;
+}
+
+.emp-account__overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.emp-account__overlay svg {
+    font-size: 3rem;
+    background-color: #f8f8f85a;
+    border: none;
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+
+.emp-account__avatar:hover .emp-account__overlay {
+    opacity: 1;
+}
+
+.emp-account__table {
+    display: flex;
+    flex-direction: row;
+}
+
+.emp-account__small-table {
+    display: flex;
+    flex-direction: row;
+}
+
+.emp-account__table-column1 {
+    min-width: 35vw;
+    margin-bottom: 2rem;
+}
+
+.emp-account__table-column2 {
+    min-width: 10vw;
+}
+
+.emp-account__table-column3 {
+    min-width: 35vw;
+    margin-top: 4rem;
+    
+}
+
+.emp-account__table-column1 h3 {
+    font-size: 1.8rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    text-align: left;
+    color: var(--color-darkgreen);
+    margin-top: 1.5rem;
+}
+
+.emp-account__table-column2 h3 {
+    font-size: 1.8rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    text-align: left;
+    color: var(--color-darkgreen);
+    margin-top: 1.5rem;
+}
+
+.emp-account__input-long input {
+    min-width: 28vw;
+    max-width: 100vw;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font-alt);
+
+    color: var(--color-darkgreen);
+
+    margin-right: 1rem;
+    padding: 0.2rem 0.4rem;
+    background: #f8f8f8;
+}
+
+.emp-account__input-short input {
+    min-width: 10vw;
+    max-width: 100vw;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font-alt);
+
+    color: var(--color-darkgreen);
+
+    margin-right: 1rem;
+    padding: 0.2rem 0.4rem;
+    background: #f8f8f8;
+}
+
+.emp-account__action {
+    min-width: 60%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.emp-account__action button {
+    min-width: 20vw;
+    max-width: 60vw;
+    border: 1px solid var(--color-darkgreen);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font-alt);
+    text-align: center;
+    color: var(--color-white);
+    padding: 0.5rem 0.4rem;
+    background: var(--color-darkgreen);
+    cursor: pointer;
+}
+
+.emp-account__check-column2 {
+    min-width: 12vw;
+}
+
+.emp-account__check-column2 {
+    font-size: 1.8rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    text-align: left;
+    color: var(--color-darkgreen);
+    margin-top: 1.5rem;
+}
+
+.emp-account__check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emp-account__check-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 0.5rem;
+}
+
+.emp-account__check-row p {
+    font-size: 1.5rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    text-align: left;
+    color: var(--color-darkgreen);
+}
+
+/* input [type=checkbox] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    background-color: #eee;
+} */
+
+
+@media screen and (max-width: 430px) {
+    .emp-account__avatar img {
+        display: none;
+    }
+
+    .emp-account__table {
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+
+    .emp-account__header {
+        font-size: 2.1rem;
+    }
+
+    .emp-account__table-column1 h3 {
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+    }
+
+    .emp-account__small-table {
+        flex-direction: column;
+    }
+
+    .emp-account__action {
+        padding: 0rem 2rem;
+    }
+}
